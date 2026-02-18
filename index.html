@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightSmile Dental | Gentle Family Dentistry</title>
+    <meta
+      name="description"
+      content="BrightSmile Dental helps families get healthier, brighter smiles with same-day emergency visits and flexible payment plans. Book your appointment today."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="announcement-bar">
+      <p>🎉 New patient special: Exam + X-rays + Cleaning for <strong>$89</strong>. Limited monthly slots.</p>
+    </header>
+
+    <nav class="site-nav">
+      <div class="logo">BrightSmile Dental</div>
+      <a class="button button-secondary" href="tel:+15551234567">Call (555) 123-4567</a>
+    </nav>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Trusted by 1,200+ local families</p>
+          <h1>Get a healthier smile with stress-free dental care.</h1>
+          <p class="hero-copy">
+            From preventive cleanings to cosmetic smile makeovers, our gentle dentists help you feel comfortable and confident at every visit.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#book">Book Appointment</a>
+            <a class="button button-link" href="#reviews">Read Patient Reviews</a>
+          </div>
+          <ul class="trust-list">
+            <li>✅ Same-day emergency care</li>
+            <li>✅ Most insurance accepted</li>
+            <li>✅ 0% payment plans available</li>
+          </ul>
+        </div>
+        <aside class="booking-card" id="book">
+          <h2>Book in 60 seconds</h2>
+          <p>Tell us what you need and our team will call you within 15 minutes during office hours.</p>
+          <form id="lead-form" novalidate>
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label>
+              Phone Number
+              <input type="tel" name="phone" placeholder="(555) 123-4567" required />
+            </label>
+            <label>
+              Main Concern
+              <select name="concern" required>
+                <option value="">Choose one…</option>
+                <option>Routine cleaning</option>
+                <option>Tooth pain / emergency</option>
+                <option>Cosmetic treatment</option>
+                <option>Invisalign consultation</option>
+              </select>
+            </label>
+            <button type="submit" class="button button-primary">Claim My Consultation</button>
+            <p id="form-message" aria-live="polite"></p>
+          </form>
+          <small>By submitting, you agree to receive call/text follow-up from BrightSmile Dental.</small>
+        </aside>
+      </section>
+
+      <section class="section benefits" aria-label="Why patients choose us">
+        <h2>Why patients choose BrightSmile</h2>
+        <div class="grid">
+          <article>
+            <h3>Comfort-first care</h3>
+            <p>Noise-canceling headphones, warm blankets, and gentle techniques for anxious patients.</p>
+          </article>
+          <article>
+            <h3>Advanced technology</h3>
+            <p>Digital scans and same-day crowns mean faster visits and highly accurate treatment plans.</p>
+          </article>
+          <article>
+            <h3>Flexible financing</h3>
+            <p>Transparent pricing with payment options so you can start treatment without delay.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section social-proof" id="reviews">
+        <h2>Real patient success stories</h2>
+        <div class="grid">
+          <blockquote>
+            “I had severe dental anxiety, but the team made me feel safe and cared for. Best experience I’ve ever had.”
+            <cite>— Maria T.</cite>
+          </blockquote>
+          <blockquote>
+            “They fit me in the same day for a broken tooth and fixed it beautifully. Highly recommend!”
+            <cite>— James R.</cite>
+          </blockquote>
+          <blockquote>
+            “My Invisalign results are amazing. The process was simple and affordable.”
+            <cite>— Chloe W.</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="section cta-banner">
+        <h2>Ready to love your smile again?</h2>
+        <p>Appointments fill quickly—reserve your preferred time today.</p>
+        <a class="button button-primary" href="#book">Reserve Appointment</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>BrightSmile Dental • 245 Market Street • Open Mon–Sat • (555) 123-4567</p>
+    </footer>
+
+    <a class="sticky-call" href="tel:+15551234567">📞 Call Now</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
